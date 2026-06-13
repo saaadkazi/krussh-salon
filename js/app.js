@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Dynamic Canvas Image Splitter
         const splitImage = () => {
             const tempImg = new Image();
-            tempImg.src = 'assets/before_after_hair.png';
+            tempImg.src = '/assets/before_after_hair.png';
             tempImg.onload = () => {
                 const W = tempImg.naturalWidth;
                 const H = tempImg.naturalHeight;
